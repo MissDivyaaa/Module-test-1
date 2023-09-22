@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Delius+Unicase:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat:ital,wght@0,100;0,200;1,400&family=Outfit:wght@100;200&family=Roboto+Serif:ital,opsz,wght@0,8..144,300;1,8..144,100;1,8..144,200&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Delius+Unicase:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat:ital,wght@0,100;0,200;1,400&family=Outfit:wght@100;200&family=Roboto+Serif:ital,opsz,wght@1,8..144,100;1,8..144,200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Delius+Unicase:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat:ital,wght@0,100;0,200;1,400&family=Outfit:wght@100;200&family=Roboto+Serif:ital,opsz,wght@0,8..144,500;1,8..144,100;1,8..144,200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+
+
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Delius+Unicase:wght@400;700&family=Fraunces:opsz@9..144&family=Montserrat:ital,wght@0,100;0,200;1,400&family=Outfit:wght@100;200&family=Roboto+Flex:opsz,wght@8..144,200&family=Roboto+Serif:ital,opsz,wght@0,8..144,500;1,8..144,100;1,8..144,200&family=Roboto:wght@100;300&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="parent-container">
+
+        <div class="container">
+
+            <header class="header">
+                <div class="names">
+                    <h2>ROCK</h2>
+                    <h2>PAPER</h2>
+                    <h2>SCISSORS</h2>
+                </div>
+                <div class="score">
+
+
+                    <div class="score-title-1">
+                        Computer
+                        <br>
+                        score
+                        <br>
+                        <span id="Computer-score">
+                            0
+                        </span>
+                    </div>
+                    <div class="score-title-2">
+                        Your
+                        <br> score
+                        <br>
+                        <span id="Your-score">0</span>
+                    </div>
+
+
+                </div>
+
+            </header>
+        </div>
+
+
+        <!-- PLAY BOOARD -->
+
+        <section class="playing-field">
+            <button data-choice="ROCK" class="choice-button">
+                <div class="choice ROCK">
+                    <img src="images/icon-ROCK.png">
+                </div>
+            </button>
+
+
+            <button data-choice="PAPER" class="choice-button">
+                <div class="choice PAPER">
+                    <img src="images/icon-PAPER.png">
+                </div>
+            </button>
+
+
+
+            <button data-choice="SCISSORS" class="choice-button">
+                <div class="choice SCISSORS">
+                    <img src="images/icon-SCISSORS.png">
+                </div>
+            </button>
+
+        </section>
+
+        <!-- RESULTS -->
+
+        <section class="results hidden">
+            <h2 class="results_heading">YOU PICKED</h2>
+            <h2 class="results_heading">PC PICKED</h2>
+            <div class="results_result"></div>
+            <div class="results_winner hidden">
+                <h2 class="results_text"></h2>
+                <button class="play-again">PLAY AGAIN</button>
+                <button class="replay">REPLAY</button>
+            </div>
+            <div class="results_result"></div>
+        </section>
+
+
+        <!-- RULES MODAL -->
+
+        <button class="rules-btn">RULES</button>
+
+        <div class="modal">
+            <h1>Game Rules</h1>
+            <ul>
+                <li class="text"> <span style='font-size:20px; color:#FFD600; margin-right: 10px;'>&#9632;</span>
+                    Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                <li class="text"> <span style='font-size:20px; color:#FFD600; margin-right: 10px;'>&#9632;</span>
+                    Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just
+                    “rock, paper,
+                    scissors.”</li>
+                <li class="text"> <span style='font-size:20px; color:#FFD600; margin-right: 10px;'>&#9632;</span>
+                    Use rock, paper, scissors to settle minor decisions or simply play to pass the time
+                </li>
+                <li class="text">
+                    <span style='font-size:20px; color:#FFD600; margin-right: 10px;'>&#9632;</span>
+                    If both players lay down the same hand, each player lays down another hand
+                </li>
+            </ul>
+
+            <button class="close-btn"> X </button>
+        </div>
+
+
+        <!-- HURRAY PAGE -->
+
+
+        <a href="hurray.html" class="Next-btn">NEXT</a>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

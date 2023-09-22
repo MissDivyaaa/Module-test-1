@@ -1,0 +1,192 @@
+body {
+    background-color: #89C15E;
+}
+
+.trophy {
+    position: absolute;
+    bottom: 47%;
+    left: 45%;
+}
+
+.star1 {
+    position: absolute;
+    bottom: 58%;
+    left: 35%;
+}
+
+.star2 {
+    position: absolute;
+    bottom: 69%;
+    left: 54%;
+}
+
+.star6 {
+    position: absolute;
+    bottom: 49%;
+    left: 57%;
+}
+
+.star9 {
+    position: absolute;
+    bottom: 69%;
+    left: 40%;
+}
+
+.star3 {
+    position: absolute;
+    bottom: 49%;
+    right: 57%;
+}
+
+.star4 {
+    position: absolute;
+    bottom: 66%;
+    left: 60%;
+}
+
+.star7 {
+    position: absolute;
+    bottom: 80%;
+    left: 44%;
+}
+
+.star8 {
+    position: absolute;
+    bottom: 85%;
+    left: 50%;
+}
+
+.hurray {
+    position: absolute;
+    right: 36%;
+    bottom: 25%;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 100px;
+}
+
+h2 {
+    position: absolute;
+    right: 36%;
+    bottom: 20%;
+    font-weight: lighter;
+    color: white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 46px;
+}
+
+
+.rules-btn {
+    position: absolute;
+    top: 93%;
+    left: 92%;
+    width: 120px;
+    height: 48px;
+    background-color: transparent;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 9px 9px 9px 9px;
+    border: white solid 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.rules-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.modal {
+    position: absolute;
+    width: 15%;
+    height: 32%;
+    text-align: left;
+    line-height: 16px;
+    left: 82%;
+    bottom: 9%;
+    background-color: #004429;
+    color: white;
+    border: white solid 6px;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 13px;
+    font-family: 'Roboto Serif', serif;
+    opacity: 0;
+    pointer-events: none;
+
+}
+
+
+.heading {
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding-top: 8px;
+    font-family: 'Roboto';
+}
+
+.modal ul {
+    list-style-type: none;
+}
+
+.modal li {
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+
+
+.close-btn {
+    position: absolute;
+    background-color: red;
+    left: 90%;
+    bottom: 93%;
+    width: 17%;
+    height: 15%;
+    border-radius: 50%;
+    border: solid white 5px;
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    transform: scale(1.2);
+    background-color: red;
+}
+
+.show-modal {
+    opacity: 1;
+    pointer-events: initial;
+}
+
+
+.play-again {
+    background: #fff;
+    outline: none;
+    position: absolute;
+    border: 2px solid transparent;
+    border-radius: 0.6rem;
+    color: grey;
+    font-weight: bolder;
+    padding: 0.4rem 1rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: inherit;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-decoration: none;
+    top: 80%;
+    left: 46%;
+}
+
+.play-again:hover {
+    background: transparent;
+    border: solid 2px white;
+    color: white;
+    transition: 0.5s;
+}
