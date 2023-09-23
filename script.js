@@ -100,14 +100,10 @@ function displayWinner(results) {
             NEXTbtn.style.display = "none"
         }
 
-        localStorage.setItem("Userscore", JSON.stringify(Userscore));
-        localStorage.setItem("Pcscore", JSON.stringify(Pcscore));
-
         resultWinner.classList.toggle("hidden");
         resultsDiv.classList.toggle("show-winner");
     }, 1);
 }
-
 
 
 
@@ -118,12 +114,22 @@ function isWinner(results) {
 function keepScore(point) {
     Userscore += point;
     scoreNumber.innerText = Userscore;
+    localStorage.setItem("Userscore", JSON.stringify(Userscore));
 }
 
 function storeScore(point) {
     Pcscore += point;
     CompScore.innerText = Pcscore;
+    localStorage.setItem("Pcscore", JSON.stringify(Pcscore));
 }
+
+function update() {
+    scoreNumber.textContent = Userscore;
+    CompScore.textContent = Pcscore;
+}
+update();
+
+
 
 
 // Play Again

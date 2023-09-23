@@ -42,7 +42,8 @@ header {
     background-color: aliceblue;
     color: rgb(107, 106, 106);
     border-radius: 10px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 17px;
+    padding-top: 5px;
     text-align: center;
     font-style: normal;
     font-weight: bolder;
@@ -58,7 +59,8 @@ header {
     color: rgb(107, 106, 106);
     background-color: aliceblue;
     border-radius: 10px 10px 10px 10px;
-    font-size: 20px;
+    font-size: 17px;
+    padding-top: 5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bolder;
     text-align: center;
