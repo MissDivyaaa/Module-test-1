@@ -295,33 +295,6 @@ header {
     pointer-events: initial;
 }
 
-/* .Next-btn {
-    position: absolute;
-    top: 93%;
-    left: 84%;
-    width: 120px;
-    height: 34px;
-    padding-top: 10px;
-    background-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-style: normal;
-    border-radius: 9px 9px 9px 9px;
-    border: white solid 2px;
-    cursor: pointer;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    display: none;
-}
-
-
-.Next-btn:hover {
-    background-color: white;
-    color: rgb(107, 106, 106);
-    transition: 0.5s;
-} */
 
 .results {
     display: grid;
