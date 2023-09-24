@@ -84,7 +84,8 @@ function displayWinner(results) {
             resultDivs[0].classList.toggle("winner");
             replayBtn.style.display = "none";
             playAgainBtn.style.display = "block";
-            NEXTbtn.style.display = "block"
+            NEXTbtn.style.display = "block";
+            RulesBtn.style.left = '84%';
             keepScore(1);
         } else if (aiWins) {
             resultText.innerText = "YOU LOST AGAINST PC";
@@ -146,6 +147,7 @@ playAgainBtn.addEventListener("click", () => {
     resultWinner.classList.toggle("hidden");
     resultsDiv.classList.toggle("show-winner");
     NEXTbtn.style.display = "none"
+    RulesBtn.style.left = '92%';
 });
 
 
