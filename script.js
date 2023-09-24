@@ -145,6 +145,7 @@ playAgainBtn.addEventListener("click", () => {
     resultText.innerText = "";
     resultWinner.classList.toggle("hidden");
     resultsDiv.classList.toggle("show-winner");
+    NEXTbtn.style.display = "none"
 });
 
 

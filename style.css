@@ -39,7 +39,7 @@ header {
     height: 120px;
     margin-left: 30px;
     margin-top: 10px;
-    background-color: aliceblue;
+    background-color: #fff;
     color: rgb(107, 106, 106);
     border-radius: 10px 10px 10px 10px;
     font-size: 17px;
@@ -53,11 +53,10 @@ header {
 .score-title-2 {
     width: 130px;
     height: 120px;
-    background-color: aliceblue;
+    background-color: #fff;
     margin-top: 10px;
     margin-left: 30px;
     color: rgb(107, 106, 106);
-    background-color: aliceblue;
     border-radius: 10px 10px 10px 10px;
     font-size: 17px;
     padding-top: 5px;
@@ -163,7 +162,6 @@ header {
     background: rgba(255, 169, 67, 1);
 }
 
-
 .choice::after {
     opacity: 0;
     transition: opacity 0.4s ease;
@@ -259,8 +257,7 @@ header {
 }
 
 .close-btn:hover {
-    /* transform: scale(1.2); */
-    border: 1px solid white;
+    border: 3px solid white;
     background-color: red;
 }
 
@@ -274,11 +271,11 @@ header {
     top: 93%;
     left: 84%;
     width: 120px;
-    height: 35px;
+    height: 34px;
     padding-top: 10px;
     background-color: transparent;
-    color: aliceblue;
-    font-size: 22px;
+    color: #fff;
+    font-size: 20px;
     font-style: normal;
     border-radius: 9px 9px 9px 9px;
     border: white solid 2px;
@@ -291,14 +288,14 @@ header {
 }
 
 
-.show-Next-btn {
+/* .show-Next-btn {
     opacity: 1;
     pointer-events: initial;
-}
+} */
 
 .Next-btn:hover {
     background-color: white;
-    color: grey;
+    color: rgb(107, 106, 106);
     transition: 0.5s;
 }
 
@@ -355,6 +352,7 @@ header {
     box-shadow: 0 0 0 30px rgba(38, 129, 30, 0.39), 0 0 0 60px rgba(46, 154, 37, 0.39), 0 0 0 80px rgba(46, 154, 37, 0.39);
     animation: winner 0.4s ease forwards;
     transform: scale(1.2);
+
 }
 
 
@@ -413,13 +411,13 @@ header {
     border: 2px solid transparent;
     border-radius: 0.6rem;
     color: grey;
-    padding: 0.8rem 2rem;
+    padding: 0.4rem 1.3rem;
     margin-top: 1rem;
     margin-right: 1rem;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-transform: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 0.1em;
     cursor: pointer;
     display: none;
